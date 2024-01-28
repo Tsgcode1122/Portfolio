@@ -28,9 +28,12 @@ const Navbar = () => {
                 to="/"
                 className={`nav-logo  ${isDarkMode ? "dark-mode" : ""}`}
               >
-                <span>
-                  <ts></ts>
+                <span className="white"> {ttt} </span>
+                <span className="white">
+                  {" "}
+                  TS <span className="color"> Code</span>{" "}
                 </span>
+                <span className="white"> {ttt2} </span>
               </Link>
             </div>
             <div className="Menu-button">
