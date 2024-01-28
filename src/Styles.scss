@@ -313,6 +313,12 @@ body {
   padding: 2rem;
   text-align: center;
   color: $primary-color;
+  h2 {
+    font-weight: bolder;
+    color: $bright-color;
+    margin-bottom: 1rem;
+  }
+
   .stack-icon {
     display: flex;
     justify-content: space-between;
@@ -351,6 +357,9 @@ body {
   color: $primary-color;
   h2 {
     text-align: center;
+    font-weight: bolder;
+    color: $bright-color;
+    margin-bottom: 1rem;
   }
   background-color: $secondary-color;
   .Projects {
@@ -405,9 +414,17 @@ body {
         padding: 5px 15px;
         border-radius: 20px;
         border: 1px solid $bright-color;
+        &:hover {
+          background: none;
+          border: 1px solid $bright-color;
+        }
       }
       .nonas {
         background: none;
+        &:hover {
+          background: $bright-color;
+          border: 1px solid $bright-color;
+        }
       }
     }
   }
@@ -418,6 +435,11 @@ body {
   background-color: $secondary-color;
   color: $primary-color;
   text-align: center;
+  h2 {
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    color: $bright-color;
+  }
   .Contact-form {
     max-width: 300px;
     margin: 0 auto;
@@ -494,6 +516,17 @@ body {
 .footer-s {
   text-align: center;
   padding: 1rem;
+  color: $primary-color;
   background-color: $dark-color;
+}
+.Skillspage,
+.projectpage {
+  padding-top: 3rem;
+  background-color: $secondary-color;
+}
+.contactpage {
+  padding-bottom: 10rem;
+  padding-top: 4rem;
+  background-color: $secondary-color;
 }
 // dark mode

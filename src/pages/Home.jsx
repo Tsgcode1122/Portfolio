@@ -4,6 +4,7 @@ import Stacks from "../component/Stacks";
 import Projects from "../component/Projects";
 import Getintouch from "../component/Getintouch";
 import Footer from "../component/Footer";
+import ScrollToTopButton from "../component/ScrollToTopButton";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Projects />
       <Getintouch />
       <Footer />
+      <ScrollToTopButton />
     </>
   );
 };

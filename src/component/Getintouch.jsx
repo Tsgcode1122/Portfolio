@@ -60,14 +60,14 @@ const Getintouch = () => {
         <h2>Get In Touch</h2>
         <ul className="social-icons">
           <li className="email">
-            <a href="mailto:tsgcode201@gmail.com">
+            <a href="mailto:falolatosin8@gmail.com">
               <FaEnvelope />
             </a>
           </li>
 
           <li className="whats">
             <a
-              href="https://www.whatsapp.com"
+              href="https://wa.me/+2348134098042"
               target="_blank"
               rel="noopener noreferrer"
             >
