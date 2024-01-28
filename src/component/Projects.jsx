@@ -13,7 +13,7 @@ import Project4 from "../PortfolioImages/mobile3.png";
 import Project5 from "../PortfolioImages/mobile4.png";
 import Project6 from "../PortfolioImages/mobile6.png";
 import Project7 from "../PortfolioImages/mobile7.png";
-import "../styles.scss";
+import "../Styles.scss";
 const Projects = () => {
   return (
     <>

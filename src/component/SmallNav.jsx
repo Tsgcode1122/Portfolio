@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun, faArrowsAltH } from "@fortawesome/free-solid-svg-icons";
 import { useDarkMode } from "./ DarkModeContext";
 import { RxHamburgerMenu } from "react-icons/rx";
-import "../styles.scss";
+import "../Styles.scss";
 import Toggle from "./Toggle";
 import homew from "../Icon/homew.png";
 import skillw from "../Icon/skillw.png";

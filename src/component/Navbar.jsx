@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import { useDarkMode } from "./ DarkModeContext";
 import Example from "./SmallNav";
-import "../styles.scss";
+import "../Styles.scss";
 import Toggle from "./Toggle";
 import DownloadCVButton from "./DownloadCVButton";
 
@@ -28,12 +28,9 @@ const Navbar = () => {
                 to="/"
                 className={`nav-logo  ${isDarkMode ? "dark-mode" : ""}`}
               >
-                <span className="white"> {ttt} </span>
-                <span className="white">
-                  {" "}
-                  TS <span className="color"> Code</span>{" "}
+                <span>
+                  <ts></ts>
                 </span>
-                <span className="white"> {ttt2} </span>
               </Link>
             </div>
             <div className="Menu-button">

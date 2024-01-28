@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles.scss";
+import "../Styles.scss";
 const DownloadCVButton = () => {
   const downloadCV = () => {
     const pdfURL = "src/cv/FALOLA-TOSIN's RESUME.pdf";

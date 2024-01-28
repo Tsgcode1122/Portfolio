@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import myImg from "../Images/css-3.png";
-import "../styles.scss";
+import "../Styles.scss";
 import { FaWhatsapp, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsMedium } from "react-icons/bs";
 const Hero = () => {
