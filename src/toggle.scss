@@ -1,0 +1,40 @@
+// YourComponent.scss
+
+.toggle-container {
+  width: 50px;
+  height: 18px;
+  background-color: #333;
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease-in-out;
+  &.dark {
+    background-color: #ddd;
+  }
+}
+
+.toggle-circle {
+  width: 18px;
+  height: 18px;
+  background-color: #3498db;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: -32px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+  .fa-icon {
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .toggle-container.dark & {
+    left: 32px;
+  }
+}
