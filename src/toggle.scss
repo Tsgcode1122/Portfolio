@@ -1,5 +1,5 @@
 // YourComponent.scss
-
+$bright-color: #fd562a;
 .toggle-container {
   width: 50px;
   height: 18px;
@@ -7,7 +7,7 @@
   border-radius: 25px;
   position: relative;
   cursor: pointer;
-
+  border: 0.1px solid $bright-color;
   transition: background-color 0.3s ease-in-out;
   &.dark {
     background-color: #ddd;
@@ -17,7 +17,7 @@
 .toggle-circle {
   width: 18px;
   height: 18px;
-  background-color: #3498db;
+  background-color: $bright-color;
   border-radius: 50%;
   position: absolute;
   top: 0;

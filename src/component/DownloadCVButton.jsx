@@ -1,38 +1,26 @@
 import React from "react";
 import "../Styles.scss";
 const DownloadCVButton = () => {
-  const downloadCV = () => {
-    const pdfURL = "src/cv/FALOLA-TOSIN's RESUME.pdf";
-
-    const link = document.createElement("a");
-
-    link.href = pdfURL;
-
-    link.setAttribute("download", "Falola Tosin's Resume.pdf");
-
-    document.body.appendChild(link);
-
-    link.click();
-
-    document.body.removeChild(link);
-  };
-
   return (
     <>
-      <div
-        onClick={downloadCV}
-        style={{ cursor: "pointer" }}
-        className="resume"
+      <a
+        href="https://drive.google.com/file/d/1PN2_fhzXQU9OKteDuaQiF0CqTd0d_Yle/view?usp=drivesdk"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        Download Resume
-      </div>
-      <div
-        onClick={downloadCV}
-        style={{ cursor: "pointer" }}
-        className="resumes"
+        <div style={{ cursor: "pointer" }} className="resume">
+          View Resume
+        </div>
+      </a>
+      <a
+        href="https://drive.google.com/file/d/1PN2_fhzXQU9OKteDuaQiF0CqTd0d_Yle/view?usp=drivesdk"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        Download Resume
-      </div>
+        <div style={{ cursor: "pointer" }} className="resumes">
+          View Resume
+        </div>
+      </a>
     </>
   );
 };

@@ -55,7 +55,7 @@ const Navbar = () => {
                   to="/Portfolio"
                   className={`nav-link ${isDarkMode ? "dark-mode" : ""}`}
                 >
-                  Projects
+                  Portfolio
                 </Link>
                 <Link
                   to="/Contact"
@@ -82,7 +82,9 @@ const Navbar = () => {
               >
                 <Toggle />
               </button>
-
+              <div className="iamtired">
+                <DownloadCVButton />
+              </div>
               <div className="hamm">
                 <Example />
               </div>

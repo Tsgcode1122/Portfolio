@@ -4,11 +4,15 @@ import myImg from "../Images/css-3.png";
 import "../Styles.scss";
 import { FaWhatsapp, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsMedium } from "react-icons/bs";
+import useBottomToTopSwipe from "../animation/useBottomToTopSwipe";
+import useLeftToRightSwipe from "../animation/useLeftToRightSwipe";
 const Hero = () => {
+  useBottomToTopSwipe(".bounce-in");
+  useLeftToRightSwipe(".left-in");
   return (
     <>
       <section className="Hero">
-        <div className="Hero-img">
+        <div className="Hero-img bounce-in">
           <img src={myImg} />
         </div>
         <div className="Hero-content">
@@ -17,7 +21,7 @@ const Hero = () => {
           </h5>
           <h1>Falola Tosin S.</h1>
           <p> A Frontend Developer</p>
-          <article>
+          <article className="left-in">
             I'm a creative enthusiast committed to creating captivating digital
             experiences.With a keen eye for design and functionality, I bring
             ideas to life through seamless and visually appealing solutions.
@@ -71,6 +75,11 @@ const Hero = () => {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="ocean-wave-spinner">
+          <div className="waves"></div>
+          <div className="waves"></div>
+          <div className="waves"></div>
         </div>
       </section>
     </>

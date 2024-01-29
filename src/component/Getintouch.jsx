@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "../Styles.scss";
 import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
 import { IoMdCall } from "react-icons/io";
+import useZoomInAnimation from "../animation/useZoomInAnimation";
 const Getintouch = () => {
+  useZoomInAnimation(".Contact-form");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -56,7 +58,7 @@ const Getintouch = () => {
 
   return (
     <>
-      <section className="contact">
+      <section className="contact ">
         <h2>Get In Touch</h2>
         <ul className="social-icons">
           <li className="email">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Hero from "../component/Hero";
 import Stacks from "../component/Stacks";
 import Projects from "../component/Projects";
@@ -7,6 +7,10 @@ import Footer from "../component/Footer";
 import ScrollToTopButton from "../component/ScrollToTopButton";
 
 const Home = () => {
+  useEffect(() => {
+    // Scroll to the top on component mount
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <Hero />

@@ -1,6 +1,6 @@
 // useBounceIn.js
 import { useEffect } from "react";
-import "../animation.scss"; // Make sure to have your animation styles defined
+import "../animation.scss";
 
 const useBounceIn = (elementSelector, delay = 0, rootMargin = "0px") => {
   useEffect(() => {
@@ -23,9 +23,8 @@ const useBounceIn = (elementSelector, delay = 0, rootMargin = "0px") => {
       rootMargin,
     });
 
-    // Set initial styles
     element.style.opacity = "0";
-    // Add CSS transition for a smooth transition
+
     element.style.transition = "opacity 0.5s ease";
 
     observer.observe(element);

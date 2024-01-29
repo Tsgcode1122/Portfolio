@@ -13,6 +13,10 @@ import homew from "../Icon/homew.png";
 import skillw from "../Icon/skillw.png";
 import projw from "../Icon/projb.png";
 import contw from "../Icon/contw.png";
+import homew1 from "../Icon/homeb.png";
+import skillw1 from "../Icon/skillb.png";
+import projw1 from "../Icon/projw.png";
+import contw1 from "../Icon/contb.png";
 import DownloadCVButton from "./DownloadCVButton";
 
 function OffCanvasExample({ name, ...props }) {
@@ -52,7 +56,8 @@ function OffCanvasExample({ name, ...props }) {
             >
               <span>
                 {" "}
-                <img src={homew} alt="" />
+                <img src={homew} className="blackbg" alt="" />
+                <img src={homew1} className="whitebg" alt="" />
               </span>
               <span> Home</span>
             </Link>
@@ -64,7 +69,8 @@ function OffCanvasExample({ name, ...props }) {
             >
               <span>
                 {" "}
-                <img src={skillw} alt="" />
+                <img src={skillw} className="blackbg" alt="" />
+                <img src={skillw1} className="whitebg" alt="" />
               </span>
               <span> Skills</span>
             </Link>
@@ -74,10 +80,10 @@ function OffCanvasExample({ name, ...props }) {
               onClick={handleClose}
             >
               <span>
-                {" "}
-                <img src={projw} alt="" />
+                <img src={projw} className="blackbg" alt="" />
+                <img src={projw1} className="whitebg" alt="" />
               </span>
-              <span>Project</span>
+              <span> Portfolio</span>
             </Link>
             <Link
               to="/Contact"
@@ -86,13 +92,19 @@ function OffCanvasExample({ name, ...props }) {
             >
               <span>
                 {" "}
-                <img src={contw} alt="" />
+                <img src={contw} className="blackbg" alt="" />
+                <img src={contw1} className="whitebg" alt="" />
               </span>
               <span> Contact</span>
             </Link>
           </div>
           <div className="cvbutton">
             <DownloadCVButton />
+          </div>
+          <div className="ocean-wave-spinner">
+            <div className="waves"></div>
+            <div className="waves"></div>
+            <div className="waves"></div>
           </div>
         </Offcanvas.Body>
       </Offcanvas>
