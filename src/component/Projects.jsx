@@ -44,17 +44,23 @@ const Projects = () => {
             className="Projects"
           >
             <motion.div variants={animateText}>
-              <div className="Project-img">
-                <img src={Project1} />
-                <div className="Project-image-icons">
-                  <h4>IgnitionCarcare</h4>
-                  <div className="Project-icons">
-                    <img src={Html} />
-                    <img src={Css} />
-                    <img src={Javascript} />
+              <a
+                href="http://Www.ignitioncarcare.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="Project-img">
+                  <img src={Project1} />
+                  <div className="Project-image-icons">
+                    <h4>IgnitionCarcare</h4>
+                    <div className="Project-icons">
+                      <img src={Html} />
+                      <img src={Css} />
+                      <img src={Javascript} />
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
               <div className="Project-desc">
                 <article>
                   Designed a mobile auto car company. Merging HTML, CSS, and
@@ -63,7 +69,7 @@ const Projects = () => {
                 </article>
                 <div className="Project-live">
                   <a
-                    href="https://github.com/Tsgcode1122"
+                    href="https://github.com/Tsgcode1122/ignitioncarcare"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
@@ -95,16 +101,22 @@ const Projects = () => {
             className="Projects"
           >
             <motion.div variants={animateText}>
-              <div className="Project-img">
-                <img src={Project3} />
-                <div className="Project-image-icons">
-                  <h4>TsCalculator</h4>
-                  <div className="Project-icons">
-                    <img src={react} />
-                    <img src={Scss} />
+              <a
+                href="https://tsf-calculator.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="Project-img">
+                  <img src={Project3} />
+                  <div className="Project-image-icons">
+                    <h4>TsCalculator</h4>
+                    <div className="Project-icons">
+                      <img src={react} />
+                      <img src={Scss} />
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
               <div className="Project-desc">
                 <article>
                   Crafted a Freelancer Calculator web app, enabling users to
@@ -114,7 +126,7 @@ const Projects = () => {
                 </article>
                 <div className="Project-live">
                   <a
-                    href="https://github.com/Tsgcode1122"
+                    href="https://github.com/Tsgcode1122/ts-calculator"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
@@ -145,16 +157,22 @@ const Projects = () => {
             className="Projects"
           >
             <motion.div variants={animateText}>
-              <div className="Project-img">
-                <img src={Project4} />
-                <div className="Project-image-icons">
-                  <h4>AuraaGlow</h4>
-                  <div className="Project-icons">
-                    <img src={react} />
-                    <img src={Scss} />
+              <a
+                href="https://auraaglow.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="Project-img">
+                  <img src={Project4} />
+                  <div className="Project-image-icons">
+                    <h4>AuraaGlow</h4>
+                    <div className="Project-icons">
+                      <img src={react} />
+                      <img src={Scss} />
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
               <div className="Project-desc">
                 <article>
                   Auraa Glow, a skincare website offering a seamless platform
@@ -165,7 +183,7 @@ const Projects = () => {
                 </article>
                 <div className="Project-live">
                   <a
-                    href="https://github.com/Tsgcode1122"
+                    href="https://github.com/Tsgcode1122/Auraaglow"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
@@ -196,16 +214,22 @@ const Projects = () => {
             className="Projects"
           >
             <motion.div variants={animateText}>
-              <div className="Project-img">
-                <img src={Project2} />
-                <div className="Project-image-icons">
-                  <h4>TsgNotary</h4>
-                  <div className="Project-icons">
-                    <img src={react} />
-                    <img src={Scss} />
+              <a
+                href="https://tsgnotary.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="Project-img">
+                  <img src={Project2} />
+                  <div className="Project-image-icons">
+                    <h4>TsgNotary</h4>
+                    <div className="Project-icons">
+                      <img src={react} />
+                      <img src={Scss} />
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
               <div className="Project-desc">
                 <article>
                   TsgNotary, a notary website developed using React, Scss, the
@@ -214,7 +238,7 @@ const Projects = () => {
                 </article>
                 <div className="Project-live">
                   <a
-                    href="https://github.com/Tsgcode1122"
+                    href="https://github.com/Tsgcode1122/tsg-notary"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
@@ -246,17 +270,23 @@ const Projects = () => {
             className="Projects"
           >
             <motion.div variants={animateText}>
-              <div className="Project-img">
-                <img src={Project5} />
-                <div className="Project-image-icons">
-                  <h4>Soft Enterprise</h4>
-                  <div className="Project-icons">
-                    <img src={Html} />
-                    <img src={Css} />
-                    <img src={Javascript} />
+              <a
+                href="http://Www.softwebsitedesigns.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="Project-img">
+                  <img src={Project5} />
+                  <div className="Project-image-icons">
+                    <h4>Soft Enterprise</h4>
+                    <div className="Project-icons">
+                      <img src={Html} />
+                      <img src={Css} />
+                      <img src={Javascript} />
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
               <div className="Project-desc">
                 <article>
                   Crafted Soft Enterprise, a dynamic web design agency website
@@ -267,7 +297,7 @@ const Projects = () => {
                 </article>
                 <div className="Project-live">
                   <a
-                    href="https://github.com/Tsgcode1122"
+                    href="https://github.com/Tsgcode1122/softwebdesign"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
@@ -278,7 +308,7 @@ const Projects = () => {
                     Source Code
                   </a>
                   <a
-                    href="https://auraaglow.netlify.app/"
+                    href="http://Www.softwebsitedesigns.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -298,16 +328,22 @@ const Projects = () => {
             className="Projects"
           >
             <motion.div variants={animateText}>
-              <div className="Project-img">
-                <img src={Project6} />
-                <div className="Project-image-icons">
-                  <h4>Country Api</h4>
-                  <div className="Project-icons">
-                    <img src={react} />
-                    <img src={Scss} />
+              <a
+                href="https://tsgcountries-api.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="Project-img">
+                  <img src={Project6} />
+                  <div className="Project-image-icons">
+                    <h4>Country Api</h4>
+                    <div className="Project-icons">
+                      <img src={react} />
+                      <img src={Scss} />
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
               <div className="Project-desc">
                 <article>
                   Developed a comprehensive Country API utilizing RESTful
@@ -318,7 +354,7 @@ const Projects = () => {
                 </article>
                 <div className="Project-live">
                   <a
-                    href="https://github.com/Tsgcode1122"
+                    href="https://github.com/Tsgcode1122/countries-api"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
@@ -349,16 +385,22 @@ const Projects = () => {
             className="Projects"
           >
             <motion.div variants={animateText}>
-              <div className="Project-img">
-                <img src={Project7} />
-                <div className="Project-image-icons">
-                  <h4>Comfy Store</h4>
-                  <div className="Project-icons">
-                    <img src={react} />
-                    <img src={Tailwind} />
+              <a
+                href="https://tsgcomfystore.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="Project-img">
+                  <img src={Project7} />
+                  <div className="Project-image-icons">
+                    <h4>Comfy Store</h4>
+                    <div className="Project-icons">
+                      <img src={react} />
+                      <img src={Tailwind} />
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
               <div className="Project-desc">
                 <article>
                   Crafted a E-commerce website, seamlessly integrating an
@@ -369,7 +411,7 @@ const Projects = () => {
                 </article>
                 <div className="Project-live">
                   <a
-                    href="https://github.com/Tsgcode1122"
+                    href="https://github.com/Tsgcode1122/comfystore"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
