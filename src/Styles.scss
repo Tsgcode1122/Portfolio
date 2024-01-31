@@ -13,6 +13,7 @@ body {
 a {
   text-decoration: none;
   color: $primary-color;
+  font-family: "Barlow", sans-serif;
 }
 .iamtired {
   display: none;
@@ -22,6 +23,15 @@ a {
 }
 .darkbg {
   display: none;
+}
+article {
+  font-family: "Barlow", sans-serif;
+}
+h2 {
+  font-family: "Kanit", sans-serif;
+}
+h4 {
+  font-family: "Barlow", sans-serif;
 }
 .navbar {
   position: fixed;
@@ -212,15 +222,18 @@ a {
       font-size: 16px;
     }
     h1 {
-      font-size: 32px;
+      font-size: 45px;
       font-weight: bolder;
       color: $primary-color;
+      font-family: "Kanit", sans-serif;
     }
     p {
       color: $bright-color;
     }
     article {
       color: $primary-color;
+      font-family: "Barlow", sans-serif;
+      font-size: 18px;
     }
   }
   .Hero-cta {
@@ -314,6 +327,7 @@ a {
     padding-top: 2rem;
     flex-direction: column;
     gap: 20px;
+
     div {
       background-color: $dark-color;
       border-radius: 20px;
@@ -380,8 +394,10 @@ a {
     }
     .Project-desc {
       padding: 0rem 1.5rem 1.5rem 1.5rem;
+
       article {
         text-align: justify;
+        min-height: 150px;
       }
     }
     .Project-live {
@@ -813,14 +829,26 @@ a {
       .Project-live {
         a {
           text-decoration: none;
-          background-color: $bright-color;
-          color: $primary-color;
-
-          border: 1px solid $bright-color;
+          background-color: $primary-color;
+          color: $secondary-color;
+          box-shadow: -3px -3px 6px -4px rgb(0, 0, 0);
           &:hover {
             color: $secondary-color;
           }
+          span {
+            border-left: 1px solid $bright-color;
+            border-right: 1px solid $bright-color;
+            border-radius: 50%;
+            background-color: $primary-color;
+
+            border-radius: 50%;
+            box-shadow:
+              0 2px 30px rgba(255, 255, 255, 0.1),
+              0 10px 20px rgba(255, 255, 255, 0.1);
+            color: $dark-color;
+          }
         }
+
         .nonas {
           background: none;
           color: $secondary-color;
@@ -1004,6 +1032,7 @@ a {
         width: 100%;
         display: flex;
         text-align: center;
+        font-family: "Barlow", sans-serif;
         gap: 15px;
         border-right: 0.1px solid $bright-color;
         border-radius: 20px;
@@ -1054,7 +1083,7 @@ a {
   .resume {
     display: inline;
     margin: 0;
-
+    font-family: "Barlow", sans-serif;
     border-radius: 20px;
     padding: 0.7rem;
     justify-content: center;
@@ -1105,7 +1134,7 @@ a {
         font-size: 16px;
       }
       h1 {
-        font-size: 32px;
+        font-size: 36px;
       }
 
       article {
@@ -1333,12 +1362,12 @@ a {
     position: fixed;
     z-index: 999;
     background-color: $secondary-color;
-
+    padding: 0.2rem;
     border-bottom: 0.1px solid $bright-color;
     .Menu-small-size {
       display: flex;
       align-items: center;
-      padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+      padding: 0.2rem 0.8rem 0.2rem 0.8rem;
       width: 100vw;
 
       margin: 0;
@@ -1401,6 +1430,7 @@ a {
         padding: 1rem 1rem 0.5rem 0.5rem;
         width: 100%;
         display: flex;
+        font-family: "Barlow", sans-serif;
         text-align: center;
         gap: 15px;
         border-right: 0.1px solid $bright-color;
@@ -1489,7 +1519,7 @@ a {
   .Hero {
     height: 100%;
     background: url(./Images/bg-dark.jpg) no-repeat center/cover;
-    padding: 6rem 1rem 0 1rem;
+    padding: 6rem 1.5rem 0 1.5rem;
     text-align: center;
     .Hero-img {
       img {
@@ -1501,13 +1531,16 @@ a {
       padding-top: 2rem;
       h5 {
         font-size: 16px;
+        font-family: "Barlow", sans-serif;
       }
       h1 {
-        font-size: 32px;
+        font-size: 40px;
+        margin-bottom: 0rem;
       }
 
       article {
-        font-size: 14px;
+        font-size: 16px;
+        font-family: "Barlow", sans-serif;
       }
     }
     .Hero-cta {
@@ -1541,10 +1574,11 @@ a {
   }
   // stack
   .stack {
-    padding: 1rem;
+    padding: 1.5rem;
 
     h2 {
       margin-bottom: 1rem;
+      font-family: "Kanit", sans-serif;
     }
 
     .stack-icon {
@@ -1580,7 +1614,7 @@ a {
   }
   // Project
   .Project {
-    padding: 1rem;
+    padding: 1.5rem;
     color: $primary-color;
     h2 {
       text-align: center;
@@ -1596,7 +1630,7 @@ a {
       border-left: 0.1px solid $bright-color;
       border-bottom: 0.1px solid $bright-color;
       .Project-img {
-        padding: 0.5rem;
+        padding: 1rem;
 
         img {
           max-width: 100%;
@@ -1605,7 +1639,9 @@ a {
         }
         .Project-image-icons {
           padding: 5px 5px;
-
+          h4 {
+            font-size: 18px;
+          }
           .Project-icons {
             gap: 3px;
             img {
@@ -1616,7 +1652,7 @@ a {
         }
       }
       .Project-desc {
-        padding: 0rem 1rem 1rem 1rem;
+        padding: 0rem 1.1rem 1rem 1.1rem;
         article {
           text-align: justify;
           font-size: 14px;
@@ -1801,6 +1837,7 @@ a {
         width: 100%;
         display: flex;
         text-align: center;
+        font-family: "Barlow", sans-serif;
         gap: 15px;
         border-right: 0.1px solid $bright-color;
         border-radius: 20px;
@@ -1902,11 +1939,12 @@ a {
         font-size: 16px;
       }
       h1 {
-        font-size: 35px;
+        font-size: 42px;
+        margin-bottom: 0;
       }
 
       article {
-        font-size: 15px;
+        font-size: 16px;
       }
     }
     .Hero-cta {
@@ -1940,7 +1978,7 @@ a {
   }
   // stack
   .stack {
-    padding: 1.5rem;
+    padding: 2rem;
 
     h2 {
       margin-bottom: 1rem;
@@ -1955,7 +1993,7 @@ a {
 
           img {
             max-width: 100%;
-            height: 40px;
+            height: 35px;
             margin-bottom: 10px;
           }
         }
@@ -1979,7 +2017,7 @@ a {
   }
   // Project
   .Project {
-    padding: 1.5rem;
+    padding: 2rem;
     color: $primary-color;
     h2 {
       text-align: center;
@@ -1995,7 +2033,7 @@ a {
       border-left: 0.1px solid $bright-color;
       border-bottom: 0.1px solid $bright-color;
       .Project-img {
-        padding: 1rem;
+        padding: 1.5rem;
 
         img {
           max-width: 100%;
@@ -2004,7 +2042,9 @@ a {
         }
         .Project-image-icons {
           padding: 5px 5px;
-
+          h4 {
+            font-size: 18px;
+          }
           .Project-icons {
             gap: 3px;
             img {
@@ -2015,10 +2055,10 @@ a {
         }
       }
       .Project-desc {
-        padding: 0rem 1.5rem 1rem 1.5rem;
+        padding: 0rem 1.6rem 1rem 1.6rem;
         article {
           text-align: justify;
-          font-size: 15px;
+          font-size: 16px;
         }
       }
       .Project-live {
@@ -2090,7 +2130,7 @@ a {
     padding-top: 4rem;
 
     .contactt {
-      padding: 1.5rem;
+      padding: 2rem;
 
       font-size: 14px;
     }
@@ -2217,7 +2257,7 @@ a {
         font-size: 16px;
       }
       h1 {
-        font-size: 32px;
+        font-size: 45px;
       }
     }
     .Hero-cta {
@@ -2330,30 +2370,6 @@ a {
         padding: 0rem 1.5rem 1.5rem 1.5rem;
         article {
           text-align: justify;
-        }
-      }
-      .Project-live {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 10px;
-        a {
-          text-decoration: none;
-          background-color: $bright-color;
-          color: $primary-color;
-          padding: 5px 15px;
-          border-radius: 20px;
-          border: 1px solid $bright-color;
-          &:hover {
-            background: none;
-            border: 1px solid $bright-color;
-          }
-        }
-        .nonas {
-          background: none;
-          &:hover {
-            background: $bright-color;
-            border: 1px solid $bright-color;
-          }
         }
       }
     }
@@ -2577,7 +2593,7 @@ a {
         font-size: 24px;
       }
       h1 {
-        font-size: 36px;
+        font-size: 45px;
       }
       p {
         font-size: 21px;
@@ -2693,30 +2709,6 @@ a {
         padding: 0rem 1.5rem 1.5rem 1.5rem;
         article {
           text-align: justify;
-        }
-      }
-      .Project-live {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 10px;
-        a {
-          text-decoration: none;
-          background-color: $bright-color;
-          color: $primary-color;
-          padding: 5px 15px;
-          border-radius: 20px;
-          border: 1px solid $bright-color;
-          &:hover {
-            background: none;
-            border: 1px solid $bright-color;
-          }
-        }
-        .nonas {
-          background: none;
-          &:hover {
-            background: $bright-color;
-            border: 1px solid $bright-color;
-          }
         }
       }
     }
@@ -2943,7 +2935,7 @@ a {
         font-size: 24px;
       }
       h1 {
-        font-size: 36px;
+        font-size: 47px;
       }
       p {
         font-size: 21px;
@@ -3059,30 +3051,6 @@ a {
         padding: 0rem 1.5rem 1.5rem 1.5rem;
         article {
           text-align: justify;
-        }
-      }
-      .Project-live {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 10px;
-        a {
-          text-decoration: none;
-          background-color: $bright-color;
-          color: $primary-color;
-          padding: 5px 15px;
-          border-radius: 20px;
-          border: 1px solid $bright-color;
-          &:hover {
-            background: none;
-            border: 1px solid $bright-color;
-          }
-        }
-        .nonas {
-          background: none;
-          &:hover {
-            background: $bright-color;
-            border: 1px solid $bright-color;
-          }
         }
       }
     }
@@ -3308,7 +3276,7 @@ a {
         font-size: 24px;
       }
       h1 {
-        font-size: 36px;
+        font-size: 48px;
       }
       p {
         font-size: 21px;
@@ -3424,30 +3392,6 @@ a {
         padding: 0rem 1.5rem 1.5rem 1.5rem;
         article {
           text-align: justify;
-        }
-      }
-      .Project-live {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 10px;
-        a {
-          text-decoration: none;
-          background-color: $bright-color;
-          color: $primary-color;
-          padding: 5px 15px;
-          border-radius: 20px;
-          border: 1px solid $bright-color;
-          &:hover {
-            background: none;
-            border: 1px solid $bright-color;
-          }
-        }
-        .nonas {
-          background: none;
-          &:hover {
-            background: $bright-color;
-            border: 1px solid $bright-color;
-          }
         }
       }
     }
@@ -3682,7 +3626,7 @@ a {
         font-size: 26px;
       }
       h1 {
-        font-size: 44px;
+        font-size: 50px;
       }
       p {
         font-size: 23px;
@@ -3811,30 +3755,6 @@ a {
         padding: 0rem 1.5rem 1.5rem 1.5rem;
         article {
           text-align: justify;
-        }
-      }
-      .Project-live {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 10px;
-        a {
-          text-decoration: none;
-          background-color: $bright-color;
-          color: $primary-color;
-          padding: 5px 15px;
-          border-radius: 20px;
-          border: 1px solid $bright-color;
-          &:hover {
-            background: none;
-            border: 1px solid $bright-color;
-          }
-        }
-        .nonas {
-          background: none;
-          &:hover {
-            background: $bright-color;
-            border: 1px solid $bright-color;
-          }
         }
       }
     }
@@ -4071,7 +3991,7 @@ a {
         font-size: 26px;
       }
       h1 {
-        font-size: 44px;
+        font-size: 52px;
       }
       p {
         font-size: 23px;
@@ -4200,30 +4120,6 @@ a {
         padding: 0rem 1.5rem 1.5rem 1.5rem;
         article {
           text-align: justify;
-        }
-      }
-      .Project-live {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 10px;
-        a {
-          text-decoration: none;
-          background-color: $bright-color;
-          color: $primary-color;
-          padding: 5px 15px;
-          border-radius: 20px;
-          border: 1px solid $bright-color;
-          &:hover {
-            background: none;
-            border: 1px solid $bright-color;
-          }
-        }
-        .nonas {
-          background: none;
-          &:hover {
-            background: $bright-color;
-            border: 1px solid $bright-color;
-          }
         }
       }
     }
@@ -4553,30 +4449,6 @@ a {
         padding: 0rem 1.5rem 1.5rem 1.5rem;
         article {
           text-align: justify;
-        }
-      }
-      .Project-live {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 10px;
-        a {
-          text-decoration: none;
-          background-color: $bright-color;
-          color: $primary-color;
-          padding: 5px 15px;
-          border-radius: 20px;
-
-          &:hover {
-            background: none;
-            border: 1px solid $bright-color;
-          }
-        }
-        .nonas {
-          background: none;
-          &:hover {
-            background: $bright-color;
-            border: 1px solid $bright-color;
-          }
         }
       }
     }
