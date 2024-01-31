@@ -6,6 +6,8 @@ import Javascript from "../Images/js.png";
 import react from "../Images/physics.png";
 import Tailwind from "../Images/tailwind.png";
 import Bootstrap from "../Images/bootstrap.webp";
+import { CiLink } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
 import Scss from "../Images/sass.png";
 import Project1 from "../PortfolioImages/mobile1.png";
 import Project2 from "../PortfolioImages/mobile2.png";
@@ -61,19 +63,26 @@ const Projects = () => {
                 </article>
                 <div className="Project-live">
                   <a
-                    href="http://Www.ignitioncarcare.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Visit Website
-                  </a>
-                  <a
                     href="https://github.com/Tsgcode1122"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
+                    <span>
+                      {" "}
+                      <FaGithub />
+                    </span>
                     Source Code
+                  </a>
+                  <a
+                    href="http://Www.ignitioncarcare.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>
+                      <CiLink />
+                    </span>
+                    Visit Website
                   </a>
                 </div>
               </div>
@@ -105,19 +114,25 @@ const Projects = () => {
                 </article>
                 <div className="Project-live">
                   <a
-                    href="https://tsf-calculator.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Visit Website
-                  </a>
-                  <a
                     href="https://github.com/Tsgcode1122"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
+                    <span>
+                      <FaGithub />
+                    </span>
                     Source Code
+                  </a>
+                  <a
+                    href="https://tsf-calculator.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>
+                      <CiLink />
+                    </span>
+                    Visit Website
                   </a>
                 </div>
               </div>
@@ -150,19 +165,25 @@ const Projects = () => {
                 </article>
                 <div className="Project-live">
                   <a
-                    href="https://auraaglow.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Visit Website
-                  </a>
-                  <a
                     href="https://github.com/Tsgcode1122"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
+                    <span>
+                      <FaGithub />
+                    </span>
                     Source Code
+                  </a>
+                  <a
+                    href="https://auraaglow.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>
+                      <CiLink />
+                    </span>
+                    Visit Website
                   </a>
                 </div>
               </div>
@@ -193,19 +214,25 @@ const Projects = () => {
                 </article>
                 <div className="Project-live">
                   <a
-                    href="https://tsgnotary.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Visit Website
-                  </a>
-                  <a
                     href="https://github.com/Tsgcode1122"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
+                    <span>
+                      <FaGithub />
+                    </span>
                     Source Code
+                  </a>
+                  <a
+                    href="https://tsgnotary.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>
+                      <CiLink />
+                    </span>
+                    Visit Website
                   </a>
                 </div>
               </div>
@@ -240,19 +267,25 @@ const Projects = () => {
                 </article>
                 <div className="Project-live">
                   <a
-                    href="https://auraaglow.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Visit Website
-                  </a>
-                  <a
                     href="https://github.com/Tsgcode1122"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
+                    <span>
+                      <FaGithub />
+                    </span>
                     Source Code
+                  </a>
+                  <a
+                    href="https://auraaglow.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>
+                      <CiLink />
+                    </span>
+                    Visit Website
                   </a>
                 </div>
               </div>
@@ -285,19 +318,25 @@ const Projects = () => {
                 </article>
                 <div className="Project-live">
                   <a
-                    href="https://tsgcountries-api.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Visit Website
-                  </a>
-                  <a
                     href="https://github.com/Tsgcode1122"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
+                    <span>
+                      <FaGithub />
+                    </span>
                     Source Code
+                  </a>
+                  <a
+                    href="https://tsgcountries-api.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>
+                      <CiLink />
+                    </span>
+                    Visit Website
                   </a>
                 </div>
               </div>
@@ -330,19 +369,25 @@ const Projects = () => {
                 </article>
                 <div className="Project-live">
                   <a
-                    href="https://tsgcomfystore.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Visit Website
-                  </a>
-                  <a
                     href="https://github.com/Tsgcode1122"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
+                    <span>
+                      <FaGithub />
+                    </span>
                     Source Code
+                  </a>
+                  <a
+                    href="https://tsgcomfystore.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>
+                      <CiLink />
+                    </span>
+                    Visit Website
                   </a>
                 </div>
               </div>
