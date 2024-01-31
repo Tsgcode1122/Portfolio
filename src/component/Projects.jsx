@@ -46,7 +46,6 @@ const Projects = () => {
             <motion.div variants={animateText}>
               <a
                 href="http://Www.ignitioncarcare.com"
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="Project-img">
@@ -70,7 +69,6 @@ const Projects = () => {
                 <div className="Project-live">
                   <a
                     href="https://github.com/Tsgcode1122/ignitioncarcare"
-                    target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
@@ -82,7 +80,6 @@ const Projects = () => {
                   </a>
                   <a
                     href="http://Www.ignitioncarcare.com"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <span>
@@ -103,7 +100,6 @@ const Projects = () => {
             <motion.div variants={animateText}>
               <a
                 href="https://tsf-calculator.netlify.app/"
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="Project-img">
@@ -127,7 +123,6 @@ const Projects = () => {
                 <div className="Project-live">
                   <a
                     href="https://github.com/Tsgcode1122/ts-calculator"
-                    target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
@@ -138,7 +133,6 @@ const Projects = () => {
                   </a>
                   <a
                     href="https://tsf-calculator.netlify.app/"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <span>
@@ -159,7 +153,6 @@ const Projects = () => {
             <motion.div variants={animateText}>
               <a
                 href="https://auraaglow.netlify.app/"
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="Project-img">
@@ -184,7 +177,6 @@ const Projects = () => {
                 <div className="Project-live">
                   <a
                     href="https://github.com/Tsgcode1122/Auraaglow"
-                    target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
@@ -195,7 +187,6 @@ const Projects = () => {
                   </a>
                   <a
                     href="https://auraaglow.netlify.app/"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <span>
@@ -216,7 +207,6 @@ const Projects = () => {
             <motion.div variants={animateText}>
               <a
                 href="https://tsgnotary.netlify.app/"
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="Project-img">
@@ -239,7 +229,6 @@ const Projects = () => {
                 <div className="Project-live">
                   <a
                     href="https://github.com/Tsgcode1122/tsg-notary"
-                    target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
@@ -250,7 +239,6 @@ const Projects = () => {
                   </a>
                   <a
                     href="https://tsgnotary.netlify.app/"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <span>
@@ -272,7 +260,6 @@ const Projects = () => {
             <motion.div variants={animateText}>
               <a
                 href="http://Www.softwebsitedesigns.com"
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="Project-img">
@@ -298,7 +285,6 @@ const Projects = () => {
                 <div className="Project-live">
                   <a
                     href="https://github.com/Tsgcode1122/softwebdesign"
-                    target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
@@ -309,7 +295,6 @@ const Projects = () => {
                   </a>
                   <a
                     href="http://Www.softwebsitedesigns.com"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <span>
@@ -330,7 +315,6 @@ const Projects = () => {
             <motion.div variants={animateText}>
               <a
                 href="https://tsgcountries-api.netlify.app/"
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="Project-img">
@@ -355,7 +339,6 @@ const Projects = () => {
                 <div className="Project-live">
                   <a
                     href="https://github.com/Tsgcode1122/countries-api"
-                    target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
@@ -366,7 +349,6 @@ const Projects = () => {
                   </a>
                   <a
                     href="https://tsgcountries-api.netlify.app/"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <span>
@@ -387,7 +369,6 @@ const Projects = () => {
             <motion.div variants={animateText}>
               <a
                 href="https://tsgcomfystore.netlify.app/"
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="Project-img">
@@ -412,7 +393,6 @@ const Projects = () => {
                 <div className="Project-live">
                   <a
                     href="https://github.com/Tsgcode1122/comfystore"
-                    target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
@@ -423,7 +403,6 @@ const Projects = () => {
                   </a>
                   <a
                     href="https://tsgcomfystore.netlify.app/"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <span>

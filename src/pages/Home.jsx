@@ -8,7 +8,6 @@ import ScrollToTopButton from "../component/ScrollToTopButton";
 
 const Home = () => {
   useEffect(() => {
-    // Scroll to the top on component mount
     window.scrollTo(0, 0);
   });
   return (

@@ -9,6 +9,7 @@ import useLeftToRightSwipe from "../animation/useLeftToRightSwipe";
 const Hero = () => {
   useBottomToTopSwipe(".bounce-in");
   useLeftToRightSwipe(".left-in");
+
   return (
     <>
       <section className="Hero">
