@@ -71,6 +71,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/Tsgcode1122/ignitioncarcare"
                     rel="noopener noreferrer"
+                    target="_blank"
                     className="nonas"
                   >
                     <span>
@@ -82,6 +83,7 @@ const Projects = () => {
                   <a
                     href="http://Www.ignitioncarcare.com"
                     rel="noopener noreferrer"
+                    target="_blank"
                   >
                     <span>
                       <CiLink />
@@ -101,6 +103,7 @@ const Projects = () => {
             <motion.div variants={animateText}>
               <a
                 href="https://tsf-calculator.netlify.app/"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="Project-img">
@@ -126,6 +129,7 @@ const Projects = () => {
                     href="https://github.com/Tsgcode1122/ts-calculator"
                     rel="noopener noreferrer"
                     className="nonas"
+                    target="_blank"
                   >
                     <span>
                       <FaGithub />
@@ -134,6 +138,7 @@ const Projects = () => {
                   </a>
                   <a
                     href="https://tsf-calculator.netlify.app/"
+                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <span>
@@ -154,6 +159,7 @@ const Projects = () => {
             <motion.div variants={animateText}>
               <a
                 href="https://auraaglow.netlify.app/"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="Project-img">
@@ -179,6 +185,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/Tsgcode1122/Auraaglow"
                     rel="noopener noreferrer"
+                    target="_blank"
                     className="nonas"
                   >
                     <span>
@@ -189,6 +196,7 @@ const Projects = () => {
                   <a
                     href="https://auraaglow.netlify.app/"
                     rel="noopener noreferrer"
+                    target="_blank"
                   >
                     <span>
                       <CiLink />
@@ -208,6 +216,7 @@ const Projects = () => {
             <motion.div variants={animateText}>
               <a
                 href="https://tsgnotary.netlify.app/"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="Project-img">
@@ -231,6 +240,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/Tsgcode1122/tsg-notary"
                     rel="noopener noreferrer"
+                    target="_blank"
                     className="nonas"
                   >
                     <span>
@@ -241,6 +251,7 @@ const Projects = () => {
                   <a
                     href="https://tsgnotary.netlify.app/"
                     rel="noopener noreferrer"
+                    target="_blank"
                   >
                     <span>
                       <CiLink />
@@ -261,6 +272,7 @@ const Projects = () => {
             <motion.div variants={animateText}>
               <a
                 href="http://Www.softwebsitedesigns.com"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="Project-img">
@@ -286,6 +298,7 @@ const Projects = () => {
                 <div className="Project-live">
                   <a
                     href="https://github.com/Tsgcode1122/softwebdesign"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="nonas"
                   >
@@ -297,6 +310,7 @@ const Projects = () => {
                   <a
                     href="http://Www.softwebsitedesigns.com"
                     rel="noopener noreferrer"
+                    target="_blank"
                   >
                     <span>
                       <CiLink />
@@ -341,6 +355,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/Tsgcode1122/countries-api"
                     rel="noopener noreferrer"
+                    target="_blank"
                     className="nonas"
                   >
                     <span>
@@ -351,6 +366,7 @@ const Projects = () => {
                   <a
                     href="https://tsgcountries-api.netlify.app/"
                     rel="noopener noreferrer"
+                    target="_blank"
                   >
                     <span>
                       <CiLink />
@@ -395,6 +411,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/Tsgcode1122/comfystore"
                     rel="noopener noreferrer"
+                    target="_blank"
                     className="nonas"
                   >
                     <span>
@@ -405,6 +422,7 @@ const Projects = () => {
                   <a
                     href="https://tsgcomfystore.netlify.app/"
                     rel="noopener noreferrer"
+                    target="_blank"
                   >
                     <span>
                       <CiLink />
