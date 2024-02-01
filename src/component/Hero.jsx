@@ -58,7 +58,7 @@ const Hero = () => {
               </li>
               <li className="insta">
                 <a
-                  href="https://www.instagram.com/soft_graphics"
+                  href="https://medium.com/@tsgcode"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
