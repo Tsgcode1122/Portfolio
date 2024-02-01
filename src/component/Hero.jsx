@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
-import myImg from "../Images/css-3.png";
+import myImg from "../Images/profile.png";
 import "../Styles.scss";
 import { FaWhatsapp, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsMedium } from "react-icons/bs";
@@ -13,9 +13,19 @@ const Hero = () => {
   return (
     <>
       <section className="Hero">
+        <div className="spin-box"></div>
+        <div className="spin-box"></div>
+        <div className="spin-box"></div>
+        <div className="spin-box"></div>
+        <div className="spin-box"></div>
+        <div className="spin-box"></div>
+        <div className="spin-box"></div>
+        <div className="spin-box"></div>
+        <div className="spin-box"></div>
         <div className="Hero-img bounce-in">
           <img src={myImg} />
         </div>
+
         <div className="Hero-content">
           <h5>
             Hello, I'm <span className="waving-hand">👋</span>

@@ -46,6 +46,7 @@ const Projects = () => {
             <motion.div variants={animateText}>
               <a
                 href="http://Www.ignitioncarcare.com"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="Project-img">
