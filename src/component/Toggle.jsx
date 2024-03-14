@@ -16,7 +16,10 @@ const Toggle = () => {
       onClick={toggleDarkMode}
     >
       <div className="toggle-circle">
-        <FontAwesomeIcon icon={isDarkMode ? faMoon : faSun} />
+        <FontAwesomeIcon
+          icon={isDarkMode ? faMoon : faSun}
+          style={{ color: white }}
+        />
       </div>
     </div>
   );
