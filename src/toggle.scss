@@ -31,7 +31,7 @@ $bright-color: #fd562a;
   transition: 0.5s ease-in-out;
   .fa-icon {
     font-size: 14px;
-    color: #fff;
+    color: #fff !important;
   }
 
   .toggle-container.dark & {
