@@ -11,7 +11,6 @@ const ScrollToTopButton = () => {
       document.documentElement.scrollTop || document.body.scrollTop;
     const windowHeight = window.innerHeight;
 
-    // Check if the user has scrolled beyond 20% of the webpage
     const scrollPercentage = (scrollTop / (scrollHeight - windowHeight)) * 100;
     setIsVisible(scrollPercentage > 10);
   };
