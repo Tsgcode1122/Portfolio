@@ -4,7 +4,7 @@ const DownloadCVButton = () => {
   return (
     <>
       <a
-        href="https://drive.google.com/file/d/1PN2_fhzXQU9OKteDuaQiF0CqTd0d_Yle/view?usp=drivesdk"
+        href="/PortfolioImages/FALOLA TOSIN S - RESUME.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -13,7 +13,7 @@ const DownloadCVButton = () => {
         </div>
       </a>
       <a
-        href="https://drive.google.com/file/d/1PN2_fhzXQU9OKteDuaQiF0CqTd0d_Yle/view?usp=drivesdk"
+        href="/PortfolioImages/FALOLA TOSIN S - RESUME.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >

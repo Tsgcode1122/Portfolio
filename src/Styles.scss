@@ -102,13 +102,13 @@ h4 {
     }
 
     .nav-link {
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       padding: 1rem 1rem 0.5rem 0.5rem;
       width: 100%;
       display: flex;
       text-align: center;
       gap: 15px;
-      border-right: 0.1px solid $bright-color;
+      // border-right: 0.1px solid $bright-color;
       border-radius: 20px;
       transition:
         box-shadow 0.3s ease,
@@ -419,8 +419,7 @@ h4 {
     background-color: $dark-color;
     border-radius: 20px;
     padding-bottom: 0.8rem;
-    border-left: 0.1px solid $bright-color;
-    border-bottom: 0.1px solid $bright-color;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     .Project-img {
       padding: 1.5rem;
 
@@ -465,7 +464,7 @@ h4 {
       a {
         text-decoration: none;
         background-color: $dark-color;
-        box-shadow: -3px -3px 6px -4px rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         color: $primary-color;
         padding: 5px 15px;
         border-radius: 20px;
@@ -652,54 +651,6 @@ h4 {
   }
 }
 
-// media
-
-@media screen and (min-width: 700px) {
-  .iamtired {
-    display: block;
-  }
-
-  .Menu-button {
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    .menu-fl {
-      display: flex;
-      gap: 20px;
-      color: $light-color;
-    }
-    .cvbuttonl {
-      display: none;
-    }
-  }
-  .Menu-toggles {
-    display: flex;
-  }
-  .Menu-toggle {
-    display: none;
-  }
-  .hamm {
-    display: none;
-  }
-
-  .resumes {
-    display: inline;
-    color: $secondary-color;
-    margin: 0;
-
-    text-align: center;
-    border: 0.1px solid $bright-color;
-    border-radius: 20px;
-    padding: 0.5rem;
-    justify-content: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
-
-  .resume {
-    display: none;
-  }
-}
 // dark mode
 .dark-mode {
   body {
@@ -758,7 +709,7 @@ h4 {
     color: $secondary-color;
     .Menu-small {
       .nav-link {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
         border-right: 0px solid $bright-color;
       }
@@ -797,7 +748,7 @@ h4 {
   .resume {
     background-color: $bright-color;
 
-    box-shadow: 3px 3px 6px -4px rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .resumes {
     display: none;
@@ -889,7 +840,7 @@ h4 {
           text-decoration: none;
           background-color: $primary-color;
           color: $secondary-color;
-          box-shadow: -3px -3px 6px -4px rgb(0, 0, 0);
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           &:hover {
             color: $secondary-color;
           }
@@ -900,9 +851,7 @@ h4 {
             background-color: $primary-color;
 
             border-radius: 50%;
-            box-shadow:
-              0 2px 30px rgba(255, 255, 255, 0.1),
-              0 10px 20px rgba(255, 255, 255, 0.1);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             color: $dark-color;
           }
         }
@@ -995,6 +944,54 @@ h4 {
     }
   }
 }
+
+@media screen and (min-width: 700px) {
+  .iamtired {
+    display: block;
+  }
+
+  .Menu-button {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    .menu-fl {
+      display: flex;
+      gap: 20px;
+      color: $light-color;
+    }
+    .cvbuttonl {
+      display: none;
+    }
+  }
+  .Menu-toggles {
+    display: flex;
+  }
+  .Menu-toggle {
+    display: none;
+  }
+  .hamm {
+    display: none;
+  }
+
+  .resumes {
+    display: inline;
+    color: $secondary-color;
+    margin: 0;
+
+    text-align: center;
+    border: 0.1px solid $bright-color;
+    border-radius: 20px;
+    padding: 0.5rem;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .resume {
+    display: none;
+  }
+}
+
 // media screen size
 @media screen and (max-width: 320px) {
   body {

@@ -10,7 +10,7 @@ import { CiLink } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import Scss from "../Images/sass.png";
 import Project1 from "../PortfolioImages/mobile1.png";
-import Project2 from "../PortfolioImages/mobile2.png";
+import Project2 from "../PortfolioImages/hotee.png";
 import Project3 from "../PortfolioImages/mobile5.png";
 import Project4 from "../PortfolioImages/mobile3.png";
 import Project5 from "../PortfolioImages/mobile4.png";
@@ -158,6 +158,63 @@ const Projects = () => {
           >
             <motion.div variants={animateText}>
               <a
+                href="https://soltoshotel.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="Project-img">
+                  <img src={Project2} />
+                  <div className="Project-image-icons">
+                    <h4>SolHotel</h4>
+                    <div className="Project-icons">
+                      <img src={react} />
+                      <img src={Css} />
+                      <img src={Bootstrap} />
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <div className="Project-desc">
+                <article>
+                  Built a Hotel Booking System in React.js Facilitated
+                  user-friendly room browsing, bookings, and authentication.
+                  Leveraged Axios for API interaction, ensuring smooth data
+                  exchange and handling.
+                </article>
+                <div className="Project-live">
+                  <a
+                    href="https://github.com/Tsgcode1122/solhotel"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="nonas"
+                  >
+                    <span>
+                      <FaGithub />
+                    </span>
+                    Source Code
+                  </a>
+                  <a
+                    href="https://soltoshotel.netlify.app/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span>
+                      <CiLink />
+                    </span>
+                    Visit Website
+                  </a>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+          <motion.div
+            initial={"setOff"}
+            whileInView={"setIn"}
+            viewport={{ once: false, amount: 0.2 }}
+            className="Projects"
+          >
+            <motion.div variants={animateText}>
+              <a
                 href="https://auraaglow.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -195,61 +252,6 @@ const Projects = () => {
                   </a>
                   <a
                     href="https://auraaglow.netlify.app/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <span>
-                      <CiLink />
-                    </span>
-                    Visit Website
-                  </a>
-                </div>
-              </div>
-            </motion.div>
-          </motion.div>
-          <motion.div
-            initial={"setOff"}
-            whileInView={"setIn"}
-            viewport={{ once: false, amount: 0.2 }}
-            className="Projects"
-          >
-            <motion.div variants={animateText}>
-              <a
-                href="https://tsgnotary.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="Project-img">
-                  <img src={Project2} />
-                  <div className="Project-image-icons">
-                    <h4>TsgNotary</h4>
-                    <div className="Project-icons">
-                      <img src={react} />
-                      <img src={Scss} />
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <div className="Project-desc">
-                <article>
-                  TsgNotary, a notary website developed using React, Scss, the
-                  website ensures a smooth user experience for individuals
-                  seeking notary services.
-                </article>
-                <div className="Project-live">
-                  <a
-                    href="https://github.com/Tsgcode1122/tsg-notary"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    className="nonas"
-                  >
-                    <span>
-                      <FaGithub />
-                    </span>
-                    Source Code
-                  </a>
-                  <a
-                    href="https://tsgnotary.netlify.app/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
