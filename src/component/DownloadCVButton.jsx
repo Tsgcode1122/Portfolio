@@ -4,7 +4,7 @@ const DownloadCVButton = () => {
   return (
     <>
       <a
-        href="/PortfolioImages/Falola-Tosin's-Resume.pdf"
+        href="Falola-Tosin's-Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -13,7 +13,7 @@ const DownloadCVButton = () => {
         </div>
       </a>
       <a
-        href="/PortfolioImages/Falola-Tosin's-Resume.pdf"
+        href="Falola-Tosin's-Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
