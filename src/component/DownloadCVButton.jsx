@@ -5,7 +5,7 @@ const DownloadCVButton = () => {
     <>
       <a
         target="_blank"
-        href="/Falola-Tosin's-Resume.PDF"
+        href="https://drive.google.com/file/d/1UJE0vzPOepSFCGFMbkdwdL33j_y4VZEq/view?usp=sharing"
         type="application/pdf"
       >
         <div style={{ cursor: "pointer" }} className="resume">
@@ -14,7 +14,7 @@ const DownloadCVButton = () => {
       </a>
       <a
         target="_blank"
-        href="/Falola-Tosin's-Resume.PDF"
+        href="https://drive.google.com/file/d/1UJE0vzPOepSFCGFMbkdwdL33j_y4VZEq/view?usp=sharing"
         type="application/pdf"
       >
         <div style={{ cursor: "pointer" }} className="resumes">
