@@ -5,18 +5,15 @@ const DownloadCVButton = () => {
     <>
       <a
         target="_blank"
-        href="https://drive.google.com/file/d/1UJE0vzPOepSFCGFMbkdwdL33j_y4VZEq/view?usp=sharing"
+        // href="https://drive.google.com/file/d/1UJE0vzPOepSFCGFMbkdwdL33j_y4VZEq/view?usp=sharing"
+        href=""
         type="application/pdf"
       >
         <div style={{ cursor: "pointer" }} className="resume">
           View Resume
         </div>
       </a>
-      <a
-        target="_blank"
-        href="https://drive.google.com/file/d/1UJE0vzPOepSFCGFMbkdwdL33j_y4VZEq/view?usp=sharing"
-        type="application/pdf"
-      >
+      <a target="_blank" href="" type="application/pdf">
         <div style={{ cursor: "pointer" }} className="resumes">
           View Resume
         </div>
