@@ -3,7 +3,7 @@ import "../Styles.scss";
 const DownloadCVButton = () => {
   return (
     <>
-      <a
+      {/* <a
         target="_blank"
         href="https://drive.google.com/file/d/1xbxABaJ7c8ZDNfDGIrC1-c587crqov3V/view?usp=drivesdk"
         type="application/pdf"
@@ -20,7 +20,7 @@ const DownloadCVButton = () => {
         <div style={{ cursor: "pointer" }} className="resumes">
           View Resume
         </div>
-      </a>
+      </a> */}
     </>
   );
 };
