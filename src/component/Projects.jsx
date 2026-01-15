@@ -5,6 +5,7 @@ import Css from "../Images/css-3.png";
 import Javascript from "../Images/js.png";
 import react from "../Images/physics.png";
 import Tailwind from "../Images/tailwind.png";
+import nodejs from "../Images/nodejs.png";
 import Bootstrap from "../Images/bootstrap.webp";
 import { CiLink } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
@@ -17,6 +18,7 @@ import Project5 from "../PortfolioImages/mobile4.png";
 import Project6 from "../PortfolioImages/mobile6.png";
 import Project7 from "../PortfolioImages/mobile7.png";
 import Project8 from "../PortfolioImages/mobile8.png";
+import Project9 from "../PortfolioImages/gemimg.png";
 import "../Styles.scss";
 
 const animateText = {
@@ -38,6 +40,63 @@ const Projects = () => {
       <section className="Project">
         <h2>Projects</h2>
         <div className="Projects1">
+          <motion.div
+            initial={"setOff"}
+            whileInView={"setIn"}
+            viewport={{ once: false, amount: 0.2 }}
+            className="Projects"
+          >
+            <motion.div variants={animateText}>
+              <a
+                href="https://tsf-calculator.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="Project-img">
+                  <img src={Project9} />
+                  <div className="Project-image-icons">
+                    <h4>GemLuxeAesthetics</h4>
+                    <div className="Project-icons">
+                      <img src={react} />
+                      <img src={Scss} />
+                      <img src={nodejs} />
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <div className="Project-desc">
+                <article>
+                  Designed and built a React-based booking website with
+                  automated PDF consent forms and email notifications using
+                  Node.js, streamlining the booking workflow and reducing manual
+                  processing.
+                </article>
+                <div className="Project-live">
+                  <a
+                    href="https://github.com/Tsgcode1122/luxe-aesthetics"
+                    rel="noopener noreferrer"
+                    className="nonas"
+                    target="_blank"
+                  >
+                    <span>
+                      <FaGithub />
+                    </span>
+                    Source Code
+                  </a>
+                  <a
+                    href="https://gemluxeaesthetics.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>
+                      <CiLink />
+                    </span>
+                    Visit Website
+                  </a>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
           <motion.div
             initial={"setOff"}
             whileInView={"setIn"}
