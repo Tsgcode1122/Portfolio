@@ -11,7 +11,7 @@ const Portfolio = () => {
     <>
       <div className="projectpage">
         <div className="projectp">
-          <article>
+          <article style={{ fontSize: "clamp(14px, 2vw, 18px)" }}>
             Thank you for checking out my projects! Here's a glimpse into some
             of the selected works I've deployed, representing a blend of
             creativity and technical expertise. Your interest is greatly

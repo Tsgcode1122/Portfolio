@@ -6,6 +6,7 @@ import Javascript from "../Images/js.png";
 import react from "../Images/physics.png";
 import Tailwind from "../Images/tailwind.png";
 import nodejs from "../Images/nodejs.png";
+import styled from "../Images/styled.png";
 import Bootstrap from "../Images/bootstrap.webp";
 import { CiLink } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
@@ -58,7 +59,7 @@ const Projects = () => {
                     <h4>GemLuxeAesthetics</h4>
                     <div className="Project-icons">
                       <img src={react} />
-                      <img src={Scss} />
+                      <img src={styled} />
                       <img src={nodejs} />
                     </div>
                   </div>

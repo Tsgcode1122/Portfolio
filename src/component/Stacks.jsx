@@ -5,6 +5,7 @@ import Css from "../Images/css-3.png";
 import Javascript from "../Images/js.png";
 import react from "../Images/physics.png";
 import Tailwind from "../Images/tailwind.png";
+import node from "../Images/nodejs.png";
 import Bootstrap from "../Images/bootstrap.webp";
 import Scss from "../Images/sass.png";
 import useLeftToRightSwipe from "../animation/useLeftToRightSwipe";
@@ -39,8 +40,9 @@ const Stacks = () => {
               <motion.img variants={animateIcon} src={Css} alt="" />
               <motion.img variants={animateIcon} src={Javascript} alt="" />
               <motion.img variants={animateIcon} src={react} alt="" />
-              <motion.img variants={animateIcon} src={Bootstrap} alt="" />
+              {/* <motion.img variants={animateIcon} src={Bootstrap} alt="" /> */}
               <motion.img variants={animateIcon} src={Scss} alt="" />
+              <motion.img variants={animateIcon} src={node} alt="" />
               <motion.img variants={animateIcon} src={Tailwind} alt="" />
             </motion.div>
           </div>
